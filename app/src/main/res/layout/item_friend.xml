@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/friend"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/item_view_left_margin"
+    android:paddingRight="@dimen/item_view_right_margin"
+    android:paddingTop="@dimen/item_view_top_margin"
+    android:paddingBottom="@dimen/item_view_bottom_margin"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:transitionName="@string/transition_string"
+        android:src="@drawable/no_person"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/photo" />
+
+    <TextView
+        android:paddingLeft="16dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/name" />
+</LinearLayout>
